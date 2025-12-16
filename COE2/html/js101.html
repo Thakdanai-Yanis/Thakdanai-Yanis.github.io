@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function boff() {
+            document.getElementById("b01").src = "/image/pic_bulboff.gif";
+        }
+        function bon() {
+            document.getElementById("b01").src = "/image/pic_bulbon.gif";
+        }function gg() {
+            document.getElementById("b02").src = "/image/T.gif";
+        }
+        function cc() {
+            document.getElementById("b02").src = "/image/Y.gif";
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>JAVA SCRIPT</h1>
+    <button onclick="bon()">ON</button>
+    <img id="b01" src="image/pic_bulboff.gif" alt="">
+    <button onclick="boff()">OFF</button>
+    <h1>JAVA SCRIPT</h1>
+    <button onclick="gg()">ON</button>
+    <img id="b02" src="image/pic_bulboff.gif" alt="">
+    <button onclick="cc()">OFF</button>
+</body>
+
+</html>
